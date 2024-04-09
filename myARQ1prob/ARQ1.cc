@@ -31,7 +31,6 @@ Source::~Source()
 
 void Source::initialize()
 {
-    counter = par("prob");
     timeout = 1.0; //we wilt initialize the timeout to 1.0
     timeoutEvent = new cMessage("timeoutEvent"); //schedule the first timeout event for the first packet
 
@@ -86,3 +85,4 @@ void Destination::handleMessage(cMessage *msg)
         send(msg, "out");
     }
 }
+
