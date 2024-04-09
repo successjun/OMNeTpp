@@ -14,7 +14,7 @@ simple Destination
 {
  	parameters:
  	    @display("i=block/sink");
- 	    int prob = 0.1;
+ 	    double prob = 0.1;
  	gates:
  	    input in;
  	    output out;   
