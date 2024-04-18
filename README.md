@@ -18,3 +18,8 @@ For this part, we create a variable for probability of error of the packet which
 ![myARQ1 probability ini file](https://github.com/nicomcd/OMNeT/blob/main/src/classwork9ini.png)
 ![myARQ1 probability t=0](https://github.com/nicomcd/OMNeT/blob/main/src/classwork9t0.png)
 ![myARQ1 probability t=10](https://github.com/nicomcd/OMNeT/blob/main/src/classwork9t10.png)
+
+## Classwork 10
+
+![image](https://github.com/nicomcd/OMNeTpp/assets/35404943/e64f43e2-c4a1-40ae-9973-fe63e26613b6)
+
