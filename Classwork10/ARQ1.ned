@@ -36,6 +36,6 @@ network ARQ1
             @display("p=124,42");
         }
      connections:
-         source.out --> destination.in;
+         source.out --> C --> destination.in;
          destination.out --> source.in;
 }
