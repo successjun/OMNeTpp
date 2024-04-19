@@ -26,4 +26,8 @@ Save messages that the source creates as a packet and send a copy of the packet.
 ![t=0](https://github.com/nicomcd/OMNeTpp/assets/35404943/4ebc9d35-3d7a-4484-a698-fa3c3897b03f)
 ![when limit is reached](https://github.com/nicomcd/OMNeTpp/assets/35404943/f60fcee6-b663-460b-802e-35b7a56f313e)
 
+## Classwork 11
+Collect the "delay" statistics (encountered by each packet due to bit errors and retransmissions) of 100 packets using the tools described in the lecture, track all transmissions. View the histogram and capture it.
+
+![Histogram](https://github.com/nicomcd/OMNeTpp/assets/35404943/56423178-8158-4f21-b561-399752fec159)
 
