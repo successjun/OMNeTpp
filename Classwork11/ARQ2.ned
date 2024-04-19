@@ -20,7 +20,7 @@ simple Destination
  	    output out;   
 }
 
-network ARQ1
+network ARQ2
 {
     @display("bgb=179,108");
     	types:
