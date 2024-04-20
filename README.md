@@ -31,3 +31,10 @@ Collect the "delay" statistics (encountered by each packet due to bit errors and
 
 ![Histogram](https://github.com/nicomcd/OMNeTpp/assets/35404943/56423178-8158-4f21-b561-399752fec159)
 
+## Classwork 12
+A simple queue implementation that uses the source, queue, and sink modules from [SimpleQueue.ned](https://github.com/omnetpp/omnetpp/tree/master/samples)
+
+![Editing Project Features](https://github.com/nicomcd/OMNeTpp/assets/35404943/3af62b70-548e-47b5-85ec-22f78e97226c)
+![Referencing queueinglib](https://github.com/nicomcd/OMNeTpp/assets/35404943/bc48e090-e991-4425-9478-922f56a8307d)
+
+
