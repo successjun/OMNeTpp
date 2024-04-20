@@ -33,8 +33,16 @@ Collect the "delay" statistics (encountered by each packet due to bit errors and
 
 ## Classwork 12
 A simple queue implementation that uses the source, queue, and sink modules from [SimpleQueue.ned](https://github.com/omnetpp/omnetpp/tree/master/samples)
-
+Make sure to link the queueinglib to the project.
 ![Editing Project Features](https://github.com/nicomcd/OMNeTpp/assets/35404943/3af62b70-548e-47b5-85ec-22f78e97226c)
 ![Referencing queueinglib](https://github.com/nicomcd/OMNeTpp/assets/35404943/bc48e090-e991-4425-9478-922f56a8307d)
-
-
+To run the simulation faster there are a number of different options.
+![Fast Run](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/0c2c182d-63bc-4bc1-9616-121549c1b888/Untitled.png)
+Queueing for 1000 jobs M/M/1 and its results.
+![M/M/1](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/6ccfa33a-b5ba-41fb-aea5-d7b7e95ef82a/Untitled.png)
+Queueing for 1000 jobs M/D/1 and its results.
+![M/D/1](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/cd745fcb-1be1-4a09-8ca2-58fe9a9c6913/Untitled.png)
+Queueing for 1000000 jobs M/M/1 and its results.
+![M/M/1 1000000](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/f25bfb4a-71d6-4426-ad66-db36012917bb/Untitled.png)
+Queueing for 1000000 jobs M/M/1 and its results.
+![M/D/1 1000000](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/fa07978a-8dc5-456a-ace0-3ec6e7b39870/Untitled.png)
