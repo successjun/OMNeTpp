@@ -37,12 +37,13 @@ Make sure to link the queueinglib to the project.
 ![Editing Project Features](https://github.com/nicomcd/OMNeTpp/assets/35404943/3af62b70-548e-47b5-85ec-22f78e97226c)
 ![Referencing queueinglib](https://github.com/nicomcd/OMNeTpp/assets/35404943/bc48e090-e991-4425-9478-922f56a8307d)
 To run the simulation faster there are a number of different options.
-![Fast Run](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/0c2c182d-63bc-4bc1-9616-121549c1b888/Untitled.png)
-Queueing for 1000 jobs M/M/1 and its results.
-![M/M/1](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/6ccfa33a-b5ba-41fb-aea5-d7b7e95ef82a/Untitled.png)
-Queueing for 1000 jobs M/D/1 and its results.
-![M/D/1](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/cd745fcb-1be1-4a09-8ca2-58fe9a9c6913/Untitled.png)
-Queueing for 1000000 jobs M/M/1 and its results.
-![M/M/1 1000000](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/f25bfb4a-71d6-4426-ad66-db36012917bb/Untitled.png)
-Queueing for 1000000 jobs M/M/1 and its results.
-![M/D/1 1000000](https://prod-files-secure.s3.us-west-2.amazonaws.com/49d3b3b7-abdc-4131-9065-817d195795a0/fa07978a-8dc5-456a-ace0-3ec6e7b39870/Untitled.png)
+![fast](https://github.com/nicomcd/OMNeTpp/assets/35404943/eb296aef-6274-414c-ade4-62b2f4ca61b6)
+Queue M/M/1 for 1000 jobs
+![121](https://github.com/nicomcd/OMNeTpp/assets/35404943/022388d0-4c9f-41ff-9707-af83121edc95)
+Queue M/D/1 for 1000 jobs
+![122](https://github.com/nicomcd/OMNeTpp/assets/35404943/601cf548-912e-4e5d-bb51-0d87d5793ffc)
+Queue M/M/1 for 1000000 jobs
+![123](https://github.com/nicomcd/OMNeTpp/assets/35404943/4f142a76-b7e2-4868-b60a-1341f17ce615)
+Queue M/D/1 for 1000000 jobs
+![124](https://github.com/nicomcd/OMNeTpp/assets/35404943/4c5d564b-fca8-4929-a008-b48d7b32143a)
+
