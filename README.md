@@ -47,3 +47,6 @@ Queue M/M/1 for 1000000 jobs
 Queue M/D/1 for 1000000 jobs
 ![124](https://github.com/nicomcd/OMNeTpp/assets/35404943/4c5d564b-fca8-4929-a008-b48d7b32143a)
 
+## Classwork 13
+Passive queues running in parallel:
+![image](https://github.com/nicomcd/OMNeTpp/assets/35404943/0d7efe78-453c-4f01-bfa4-3df8608a1bfa)
