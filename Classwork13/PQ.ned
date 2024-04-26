@@ -4,8 +4,11 @@
 import org.omnetpp.queueing.Queue;
 import org.omnetpp.queueing.Source;
 import org.omnetpp.queueing.Sink;
+import org.omnetpp.queueing.PassiveQueue;
+import org.omnetpp.queueing.Classifier;
+import org.omnetpp.queueing.Server;
 
-network SimpleQueue
+network PQ
 {
     parameters:
         @display("i=block/network2");
@@ -35,10 +38,10 @@ network SimpleQueue
     connections:
         source1.out --> classifier.in++;
         source2.out --> classifier.in++;
-        classifier.out[0] --> passiveQueue1.in++;
-        classifier.out[1] --> passiveQueue2.in++;
-        passiveQueue1.out --> server.in++;
-        passiveQueue2.out --> server.in++;
+        classifier.out++ --> passiveQueue1.in++;
+        classifier.rest --> passiveQueue2.in++;
+        passiveQueue1.out++ --> server.in++;
+        passiveQueue2.out++ --> server.in++;
         server.out --> sink.in++;
 }
 
