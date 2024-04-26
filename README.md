@@ -53,3 +53,7 @@ We are interested in simulating a queueing network that mimics the waiting line 
 This is how to change the ini source code:
 ![ini](https://github.com/nicomcd/OMNeTpp/assets/35404943/6553d352-357a-4c2e-baac-57b9de0dadce)
 
+Config0
+![Config0](https://github.com/nicomcd/OMNeTpp/assets/35404943/3acdf229-bb82-4419-84fe-bb73a1445263)
+
+
