@@ -10,8 +10,11 @@ class MySinkExt : public queueing::Sink
 {
     protected:
        cHistogram histogram;
-       virtual void initialize();
-       virtual void handleMessage(cMessage *msg);
+       virtual void initialize() override;
+       virtual void handleMessage(cMessage *msg) override;
+       virtual void finish() override;
+
 };
 
 #endif
+
