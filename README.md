@@ -73,3 +73,8 @@ Config8
 ![Config8](https://github.com/nicomcd/OMNeTpp/assets/35404943/eebd1cf4-ab02-4126-a20e-e2a60dda51ac)
 Config9
 ![Config9](https://github.com/nicomcd/OMNeTpp/assets/35404943/95953193-b8a6-461e-9ca8-fd58450c3f67)
+![Queueing Network](https://github.com/nicomcd/OMNeTpp/assets/35404943/6c950c3a-0d22-492c-a3e4-1944f1bb24d5)
+
+![r and W](https://github.com/nicomcd/OMNeTpp/assets/35404943/78b097fb-60e0-49bd-b74b-5e4bc086b03f)
+
+The best performance metric would be r = {0.0,0.8,0.9} the resulting mean queue time for all customers is a lot less. This would manipulate the probability of the amount of high priority customers and low priority customers.
