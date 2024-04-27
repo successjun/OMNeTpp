@@ -8,6 +8,7 @@ import org.omnetpp.queueing.Server;
 import org.omnetpp.queueing.Router;
 import org.omnetpp.queueing.Delay;
 
+
 network MM1
 {
     parameters:
@@ -50,3 +51,7 @@ simple Router
         output out[];
 }
 
+simple MySinkExt extends Sink
+{
+    @class(MySinkExt);
+}
