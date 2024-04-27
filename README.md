@@ -83,3 +83,6 @@ The best performance metric would be r = {0.0,0.8,0.9} the resulting mean queue 
 We are interested in creating a network of queues, where the source generates Poisson arrivals and first queue has exponential service time (M/M/1), the initial queue output is routed with prob p1=0.25 to another M/M/1 queue and rest exit the system.
 
 ![dispaly](https://github.com/nicomcd/OMNeTpp/assets/35404943/ba2dd8e9-b4fc-4f6d-a9ac-910bdf8e7322)
+
+![ini](https://github.com/nicomcd/OMNeTpp/assets/35404943/c90a4267-abde-4f6f-b96a-89aa6f73879a)
+
