@@ -50,7 +50,3 @@ simple Router
         output out[];
 }
 
-simple MySinkExt extends Sink
-{
-    @class(MySinkExt);
-}
