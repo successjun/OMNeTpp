@@ -78,3 +78,8 @@ Config9
 ![r and W](https://github.com/nicomcd/OMNeTpp/assets/35404943/78b097fb-60e0-49bd-b74b-5e4bc086b03f)
 
 The best performance metric would be r = {0.0,0.8,0.9} the resulting mean queue time for all customers is a lot less. This would manipulate the probability of the amount of high priority customers and low priority customers.
+
+## Classwork 14
+We are interested in creating a network of queues, where the source generates Poisson arrivals and first queue has exponential service time (M/M/1), the initial queue output is routed with prob p1=0.25 to another M/M/1 queue and rest exit the system.
+
+![dispaly](https://github.com/nicomcd/OMNeTpp/assets/35404943/ba2dd8e9-b4fc-4f6d-a9ac-910bdf8e7322)
