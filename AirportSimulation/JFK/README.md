@@ -14,4 +14,7 @@
 - T8 has 29 gates
 
 ### Runways
-- 4 Active Runways
+- R4L Departure
+- R4R Arrival
+- R13L Arrival
+- R13R Departure
