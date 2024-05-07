@@ -14,7 +14,7 @@ network MM1
     parameters:
         @display("i=block/network2");
     submodules:
-        sink: Sink {
+        sink: MySintExt {
             @display("p=308,110");
         }
         queue1: Queue {
