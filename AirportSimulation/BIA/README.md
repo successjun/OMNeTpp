@@ -1,6 +1,6 @@
 # Bandaranaike International Airport in Katunayake, Sri Lanka 
 
-![BIA](https://github.com/nicomcd/OMNeTpp/assets/35404943/dd4c578e-3730-4400-af4b-517e3a73b085)
+![BIA](https://github.com/nicomcd/OMNeTpp/assets/35404943/6f0b22e6-4df1-41c9-853c-f4ace71faba9)
 
 
 ### Terminals
