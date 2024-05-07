@@ -9,8 +9,5 @@
 - T3 idk but domestic only
 - T# Cargo
 
-### Gates
-- 12 active gates for T1
-
 ### Runways
 - 1 Active Runways
