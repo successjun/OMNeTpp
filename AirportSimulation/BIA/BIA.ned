@@ -13,30 +13,30 @@ network BIA
         @display("i=block/network2");
     submodules:
         inbound: Source {
-            @display("i=block/arrival;p=53,375");
+            @display("i=block/arrival;p=44,154");
             @display("p=37,121");
         }
-        gateRouter: Router {
-            @display("p=166,375");
+        terminalRouter: Router {
+            @display("p=143,154");
         }
         terminal1: Queue {
-            @display("p=330,31");
+            @display("p=263,154");
         }
         runway: Queue {
-            @display("p=601,375");
+            @display("p=497,154");
         }
         runwayRouter: Router {
-            @display("p=507,375");
+            @display("p=371,154");
         }
         outbound: MySinkExt {
-            @display("i=block/departure;p=690,375");
+            @display("i=block/departure;p=595,154");
             @display("p=587,121");
         }
 
 
     connections:
-        inbound.out --> gateRouter.in++;
-        gateRouter.out++ --> terminal1.in++;
+        inbound.out --> terminalRouter.in++;
+        terminalRouter.out++ --> terminal1.in++;
         terminal1.out --> runwayRouter.in++;
         runwayRouter.out++ --> runway.in++;
         runway.out --> outbound.in++;
