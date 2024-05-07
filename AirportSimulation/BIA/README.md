@@ -1,6 +1,6 @@
 # Bandaranaike International Airport in Katunayake, Sri Lanka 
 
-![BIA](https://github.com/nicomcd/OMNeTpp/assets/35404943/616253c3-c96d-466e-927b-c165355517cb)
+![BIA](https://github.com/nicomcd/OMNeTpp/assets/35404943/e3c0dded-f29e-4c1a-9337-9f217a86091a)
 
 ### Terminals
 - T1 has 12 gates
