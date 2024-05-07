@@ -16,32 +16,26 @@ network BIA
             @display("i=block/arrival;p=44,154");
             @display("p=37,121");
         }
-        terminalRouter: Router {
-            @display("p=295,125");
-        }
         terminal1: Queue {
-            @display("p=295,208");
+            @display("p=301,145");
         }
-        runway: Queue {
-            @display("p=295,45");
+        inboundRunway: Queue {
+            @display("p=173,145");
         }
-        runwayRouter: Router {
-            @display("p=167,102");
+        outboundRunway: Queue {
+            @display("p=431,144");
         }
         outbound: MySinkExt {
-            @display("i=block/departure;p=578,175");
+            @display("i=block/departure;p=576,148");
             @display("p=587,121");
         }
 
 
     connections:
-        inbound.out --> runwayRouter.in++;
-        runwayRouter.out++ --> runway.in++;
-        runway.out --> terminalRouter.in++;
-        terminalRouter.out++ --> terminal1.in++;
-        terminal1.out --> runwayRouter.in++;
-        runwayRouter.out++ --> runway.in++;
-        runway.out --> outbound.in++;
+        inbound.out --> inboundRunway.in++;
+        inboundRunway.out --> terminal1.in++;
+        terminal1.out --> outboundRunway.in++;
+        outboundRunway.out --> outbound.in++;
 }
 
 simple Router
