@@ -1,6 +1,6 @@
 # John F. Kennedy Airport in Queens, New York
 
-![image](https://github.com/nicomcd/OMNeTpp/assets/35404943/5b4e7e5b-79f5-459d-917b-d5fa92327085)
+![JFK](https://github.com/nicomcd/OMNeTpp/assets/35404943/c2175ebf-1d12-4bd8-9f4e-5565d06bb4f7)
 
 
 ### Terminals
