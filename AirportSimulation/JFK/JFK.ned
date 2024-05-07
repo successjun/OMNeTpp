@@ -13,11 +13,11 @@ network JFK
         @display("i=block/network2");
     submodules:
         inbound: Source {
-            @display("i=block/arrival");
+            @display("i=block/arrival;p=51,160");
             @display("p=37,121");
         }
         terminalRouter: Router {
-            @display("p=124,121");
+            @display("p=142,160");
         }
         terminal1: Queue {
             @display("p=228,32");
@@ -30,6 +30,9 @@ network JFK
         }
         terminal7: Queue {
             @display("p=228,226");
+        }
+        terminal8: Queue {
+            @display("p=228,297");
         }
         runway1: Queue {
             @display("p=471,32");
@@ -44,10 +47,10 @@ network JFK
             @display("p=471,226");
         }
         runwayRouter: Router {
-            @display("p=345,121");
+            @display("p=360,151");
         }
         outbound: MySinkExt {
-            @display("i=block/departure");
+            @display("i=block/departure;p=604,160");
             @display("p=587,121");
         }
 
@@ -58,10 +61,12 @@ network JFK
         terminalRouter.out++ --> terminal4.in++;
         terminalRouter.out++ --> terminal5.in++;
         terminalRouter.out++ --> terminal7.in++;
+        terminalRouter.out++ --> terminal8.in++;
         terminal1.out --> runwayRouter.in++;
         terminal4.out --> runwayRouter.in++;
         terminal5.out --> runwayRouter.in++;
         terminal7.out --> runwayRouter.in++;
+        terminal8.out --> runwayRouter.in++;
         runwayRouter.out++ --> runway1.in++;
         runwayRouter.out++ --> runway2.in++;
         runwayRouter.out++ --> runway3.in++;
