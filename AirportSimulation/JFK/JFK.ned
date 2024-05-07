@@ -13,68 +13,71 @@ network JFK
         @display("i=block/network2");
     submodules:
         inbound: Source {
-            @display("i=block/arrival;p=51,160");
+            @display("i=block/arrival;p=34,158");
             @display("p=37,121");
         }
+        inboundRouter: Router {
+            @display("p=137,157");
+        }
+        runway13L: Queue {
+            @display("p=244,210");
+        }
+        runway4R: Queue {
+            @display("p=253,97");
+        }
         terminalRouter: Router {
-            @display("p=142,160");
+            @display("p=361,163");
         }
         terminal1: Queue {
-            @display("p=228,32");
+            @display("p=498,33");
         }
         terminal4: Queue {
-            @display("p=228,95");
+            @display("p=499,102");
         }
         terminal5: Queue {
-            @display("p=228,160");
+            @display("p=501,164");
         }
         terminal7: Queue {
-            @display("p=228,226");
+            @display("p=499,235");
         }
         terminal8: Queue {
-            @display("p=228,297");
+            @display("p=500,307");
         }
-        runway1: Queue {
-            @display("p=471,32");
+        runway13R: Queue {
+            @display("p=748,203");
         }
-        runway2: Queue {
-            @display("p=471,95");
+        runway4L: Queue {
+            @display("p=748,89");
         }
-        runway3: Queue {
-            @display("p=471,160");
-        }
-        runway4: Queue {
-            @display("p=471,226");
-        }
-        runwayRouter: Router {
-            @display("p=360,151");
+        outboundRouter: Router {
+            @display("p=640,163");
         }
         outbound: MySinkExt {
-            @display("i=block/departure;p=604,160");
+            @display("i=block/departure;p=855,165");
             @display("p=587,121");
         }
 
 
     connections:
-        inbound.out --> terminalRouter.in++;
+        inbound.out --> inboundRouter.in++;
+        inboundRouter.out++ --> runway13L.in++;
+        inboundRouter.out++ --> runway4R.in++;
+        runway13L.out --> terminalRouter.in++;
+        runway4R.out --> terminalRouter.in++;
         terminalRouter.out++ --> terminal1.in++;
         terminalRouter.out++ --> terminal4.in++;
         terminalRouter.out++ --> terminal5.in++;
         terminalRouter.out++ --> terminal7.in++;
         terminalRouter.out++ --> terminal8.in++;
-        terminal1.out --> runwayRouter.in++;
-        terminal4.out --> runwayRouter.in++;
-        terminal5.out --> runwayRouter.in++;
-        terminal7.out --> runwayRouter.in++;
-        terminal8.out --> runwayRouter.in++;
-        runwayRouter.out++ --> runway1.in++;
-        runwayRouter.out++ --> runway2.in++;
-        runwayRouter.out++ --> runway3.in++;
-        runwayRouter.out++ --> runway4.in++;
-        runway1.out --> outbound.in++;
-        runway2.out --> outbound.in++;
-        runway3.out --> outbound.in++;
-        runway4.out --> outbound.in++;
+        terminal1.out --> outboundRouter.in++;
+        terminal4.out --> outboundRouter.in++;
+        terminal5.out --> outboundRouter.in++;
+        terminal7.out --> outboundRouter.in++;
+        terminal8.out --> outboundRouter.in++;
+        outboundRouter.out++ --> runway13R.in++;
+        outboundRouter.out++ --> runway4L.in++;
+        runway13R.out --> outbound.in++;
+        runway4L.out --> outbound.in++;
 }
 
 simple Router
