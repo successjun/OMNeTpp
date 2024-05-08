@@ -10,7 +10,7 @@ import org.omnetpp.queueing.Delay;
 network JFK
 {
     parameters:
-        @display("i=block/network2");
+        @display("i=block/network2;bgb=1123,512");
     submodules:
         inbound: Source {
             @display("i=block/arrival;p=34,158");
@@ -44,17 +44,16 @@ network JFK
             @display("p=500,307");
         }
         runway13R: Queue {
-            @display("p=748,203");
+            @display("p=788,283");
         }
         runway4L: Queue {
-            @display("p=748,89");
+            @display("p=788,49");
         }
         outboundRouter: Router {
-            @display("p=640,163");
+            @display("p=690,203");
         }
         outbound: MySinkExt {
-            @display("i=block/departure;p=855,165");
-            @display("p=587,121");
+            @display("i=block/departure;p=1005,165");
         }
 
 
